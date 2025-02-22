@@ -2,11 +2,11 @@
     "departures": [
         {
             "time": "12:30",
-            "type": "特急",
-            "line": "中央線",
-            "trainName": "ひかり",
-            "destination": "東京",
-            "cars": 8
+            "type": "PMNT",
+            "line": "Stlidlumart prúi",
+            "trainName": "Kavanera",
+            "destination": "Shmekerpe",
+            "cars": "12"
         },
         {
             "time": "12:45",

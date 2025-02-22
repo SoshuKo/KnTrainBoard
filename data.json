@@ -1,0 +1,23 @@
+{
+    "departures": [
+        {
+            "time": "12:30",
+            "type": "特急",
+            "line": "中央線",
+            "trainName": "ひかり",
+            "destination": "東京",
+            "cars": 8
+        },
+        {
+            "time": "12:45",
+            "type": "普通",
+            "line": "中央線",
+            "destination": "新宿",
+            "cars": 10
+        }
+    ],
+    "theme": {
+        "background": "#111",
+        "text": "#0f0"
+    }
+}

@@ -114,8 +114,8 @@ body {
     font-size: 1em;
 }
 
-/* LCDの時刻表示 */
-.time {
+/* LCDの時刻・両数表示 */
+.time, .cars {
     font-family: 'TimeFont', monospace;
 }
 

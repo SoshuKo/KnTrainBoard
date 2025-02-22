@@ -10,10 +10,10 @@
         },
         {
             "time": "12:45",
-            "type": "普通",
-            "line": "中央線",
-            "destination": "新宿",
-            "cars": 10
+            "type": "T'XP",
+            "line": "Stlidlumart prúi",
+            "destination": "spmíustalte",
+            "cars": 12
         }
     ],
     "theme": {

@@ -91,7 +91,7 @@ body {
 
 /* LCD風のスタイル */
 .lcd span {
-    font-family: 'Courier New', monospace;
+    font-family: 'YourCustomFont', monospace;
     color: #0f0;
     text-shadow: 0 0 5px #0f0;
 }

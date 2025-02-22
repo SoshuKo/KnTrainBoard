@@ -1,19 +1,19 @@
 {
     "departures": [
         {
-            "time": "12:30",
+            "time": "βγ:δα",
             "type": "1nt",
             "line": "stldlmrt pry",
             "trainName": "kvnr",
             "destination": "sMkrp",
-            "cars": "12"
+            "cars": "βγ"
         },
         {
-            "time": "12:45",
+            "time": "βγ:εζ",
             "type": "Txp",
             "line": "stldlmrt pry",
             "destination": "s1ystlt",
-            "cars": 12
+            "cars": βγ
         }
     ],
     "theme": {

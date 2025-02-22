@@ -114,6 +114,11 @@ body {
     font-size: 1em;
 }
 
+/* LCDの時刻表示 */
+.time {
+    font-family: 'TimeFont', monospace;
+}
+
 /* スマホ対応 */
 @media (max-width: 600px) {
     .departure-board {

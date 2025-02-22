@@ -8,6 +8,16 @@
     font-style: normal;
 }
 
+/* 数字専用フォント（時刻） */
+@font-face {
+    font-family: 'TimeFont';
+    src: url('fonts/time-font.woff2') format('woff2'),
+         url('fonts/time-font.woff') format('woff'),
+         url('fonts/time-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* 全体のスタイル */
 body {
     font-family: 'YourCustomFont', sans-serif;

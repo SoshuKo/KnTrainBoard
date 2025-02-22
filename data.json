@@ -2,17 +2,17 @@
     "departures": [
         {
             "time": "12:30",
-            "type": "PMNT",
-            "line": "Stlidlumart prúi",
+            "type": "1nt",
+            "line": "stldlmrt pry",
             "trainName": "Kavanera",
-            "destination": "Shmekerpe",
+            "destination": "sMkrp",
             "cars": "12"
         },
         {
             "time": "12:45",
-            "type": "T'XP",
-            "line": "Stlidlumart prúi",
-            "destination": "Spmíustalte",
+            "type": "Txp",
+            "line": "stldlmrt pry",
+            "destination": "s1ystlt",
             "cars": 12
         }
     ],

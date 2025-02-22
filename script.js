@@ -36,7 +36,7 @@ function updateBoard(data) {
             <span class="train-name">${train.trainName || ""}</span>
             <span class="time">${train.time}</span>
             <span class="destination">${train.destination}</span>
-            <span class="cars">${train.cars}stilie</span>
+            <span class="cars">${train.cars}stly</span>
         `;
 
         lcd.appendChild(row);

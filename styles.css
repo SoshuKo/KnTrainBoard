@@ -6,14 +6,6 @@
     font-style: normal;
 }
 
-/* 数字専用フォント（時刻） */
-@font-face {
-    font-family: 'TimeFont';
-    src: url('fonts/kalaval.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* 全体のスタイル */
 body {
     font-family: 'YourCustomFont', sans-serif;
@@ -116,7 +108,7 @@ body {
 
 /* LCDの時刻・両数表示 */
 .time, .cars {
-    font-family: 'TimeFont', monospace;
+    font-family: 'YourCustomFont', monospace;
 }
 
 /* スマホ対応 */

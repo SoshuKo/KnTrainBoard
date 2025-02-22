@@ -1,6 +1,6 @@
 /* フォントを適用 */
 @font-face {
-    font-family: 'YourCust';
+    font-family: 'YourCustomFont';
     src: url('fonts/kniunart01.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;

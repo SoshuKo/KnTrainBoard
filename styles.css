@@ -1,0 +1,120 @@
+/* フォントを適用 */
+@font-face {
+    font-family: 'YourCustomFont';
+    src: url('fonts/your-font.woff2') format('woff2'),
+         url('fonts/your-font.woff') format('woff'),
+         url('fonts/your-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 全体のスタイル */
+body {
+    font-family: 'YourCustomFont', sans-serif;
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* 発車標コンテナ */
+.departure-board {
+    width: 90%;
+    max-width: 600px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* 非液晶部分 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.line-color {
+    width: 10px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.line-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.direction {
+    font-size: 1em;
+}
+
+/* 液晶部分 */
+.lcd {
+    background-color: #111;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 発車情報の行 */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    font-size: 1.2em;
+}
+
+/* 最後の行のボーダーを消す */
+.row:last-child {
+    border-bottom: none;
+}
+
+/* LCD風のスタイル */
+.lcd span {
+    font-family: 'Courier New', monospace;
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0;
+}
+
+/* カラーテーマ変更用セレクター */
+.theme-selector {
+    margin-top: 10px;
+}
+
+.theme-selector label {
+    color: white;
+    font-size: 1em;
+}
+
+.theme-selector select {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 1em;
+}
+
+/* スマホ対応 */
+@media (max-width: 600px) {
+    .departure-board {
+        width: 100%;
+    }
+
+    .row {
+        font-size: 1em;
+    }
+}
